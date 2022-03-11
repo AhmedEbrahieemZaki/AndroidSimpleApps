@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/OF"
+            android:icon="@drawable/newi"
+            android:title="Offers" />
+        <item
+            android:id="@+id/WF"
+            android:icon="@drawable/ic_baseline_wifi_24"
+            android:title="Wifi" />
+    </group>
+    <group>
+        <item android:title="BestSeller"
+            android:icon="@drawable/ic_baseline_campaign_24">
+            <menu>
+                <item android:title="FriedChicken">
+                    <menu>
+                        <item
+                            android:title="TNT"
+                            />
+                    </menu>
+
+
+                </item>
+
+            </menu>
+
+        </item>
+        <item android:title="IMP">
+            <menu>
+                <item android:title="Buy 2 meals get 1 pizza FREE"></item>
+            </menu>
+        </item>
+    </group>
+
+</menu>
